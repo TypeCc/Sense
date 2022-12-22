@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070C94582953C52900254D30 /* GoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C94572953C52900254D30 /* GoViewController.swift */; };
+		070C945A2953C53A00254D30 /* WriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C94592953C53A00254D30 /* WriteViewController.swift */; };
+		070C945C2953C67400254D30 /* OutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070C945B2953C67400254D30 /* OutViewController.swift */; };
+		077B8E3F2953ADE5008FBB14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B8E3E2953ADE5008FBB14 /* AppDelegate.swift */; };
+		077B8E412953ADE5008FBB14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B8E402953ADE5008FBB14 /* SceneDelegate.swift */; };
+		077B8E432953ADE5008FBB14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B8E422953ADE5008FBB14 /* ViewController.swift */; };
+		077B8E462953ADE5008FBB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077B8E442953ADE5008FBB14 /* Main.storyboard */; };
+		077B8E482953ADE6008FBB14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077B8E472953ADE6008FBB14 /* Assets.xcassets */; };
+		077B8E4B2953ADE6008FBB14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077B8E492953ADE6008FBB14 /* LaunchScreen.storyboard */; };
+		077B8E562953ADE6008FBB14 /* SenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B8E552953ADE6008FBB14 /* SenseTests.swift */; };
+		077B8E602953ADE6008FBB14 /* SenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B8E5F2953ADE6008FBB14 /* SenseUITests.swift */; };
+		077B8E622953ADE6008FBB14 /* SenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077B8E612953ADE6008FBB14 /* SenseUITestsLaunchTests.swift */; };
+		077B8E6F2953AFE4008FBB14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 077B8E6E2953AFE4008FBB14 /* GoogleService-Info.plist */; };
+		077B8E722953B515008FBB14 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 077B8E712953B515008FBB14 /* FirebaseAuth */; };
+		077B8E742953B515008FBB14 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 077B8E732953B515008FBB14 /* FirebaseFirestore */; };
+		077B8E762953B515008FBB14 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 077B8E752953B515008FBB14 /* FirebaseStorage */; };
+		07EE8FBE29549F2200F7213B /* GoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE8FBC29549F1B00F7213B /* GoViewCell.swift */; };
+		07EE8FC12954AB0800F7213B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE8FBF2954AB0200F7213B /* Post.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077B8E522953ADE6008FBB14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077B8E332953ADE5008FBB14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077B8E3A2953ADE5008FBB14;
+			remoteInfo = Sense;
+		};
+		077B8E5C2953ADE6008FBB14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077B8E332953ADE5008FBB14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 077B8E3A2953ADE5008FBB14;
+			remoteInfo = Sense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070C94572953C52900254D30 /* GoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoViewController.swift; sourceTree = "<group>"; };
+		070C94592953C53A00254D30 /* WriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteViewController.swift; sourceTree = "<group>"; };
+		070C945B2953C67400254D30 /* OutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutViewController.swift; sourceTree = "<group>"; };
+		077B8E3B2953ADE5008FBB14 /* Sense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B8E3E2953ADE5008FBB14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		077B8E402953ADE5008FBB14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		077B8E422953ADE5008FBB14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		077B8E452953ADE5008FBB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		077B8E472953ADE6008FBB14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		077B8E4A2953ADE6008FBB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		077B8E4C2953ADE6008FBB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077B8E512953ADE6008FBB14 /* SenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B8E552953ADE6008FBB14 /* SenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseTests.swift; sourceTree = "<group>"; };
+		077B8E5B2953ADE6008FBB14 /* SenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077B8E5F2953ADE6008FBB14 /* SenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseUITests.swift; sourceTree = "<group>"; };
+		077B8E612953ADE6008FBB14 /* SenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		077B8E6E2953AFE4008FBB14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07EE8FBC29549F1B00F7213B /* GoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoViewCell.swift; sourceTree = "<group>"; };
+		07EE8FBF2954AB0200F7213B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077B8E382953ADE5008FBB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B8E722953B515008FBB14 /* FirebaseAuth in Frameworks */,
+				077B8E742953B515008FBB14 /* FirebaseFirestore in Frameworks */,
+				077B8E762953B515008FBB14 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B8E4E2953ADE6008FBB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B8E582953ADE6008FBB14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077B8E322953ADE5008FBB14 = {
+			isa = PBXGroup;
+			children = (
+				077B8E3D2953ADE5008FBB14 /* Sense */,
+				077B8E542953ADE6008FBB14 /* SenseTests */,
+				077B8E5E2953ADE6008FBB14 /* SenseUITests */,
+				077B8E3C2953ADE5008FBB14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		077B8E3C2953ADE5008FBB14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				077B8E3B2953ADE5008FBB14 /* Sense.app */,
+				077B8E512953ADE6008FBB14 /* SenseTests.xctest */,
+				077B8E5B2953ADE6008FBB14 /* SenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077B8E3D2953ADE5008FBB14 /* Sense */ = {
+			isa = PBXGroup;
+			children = (
+				077B8E3E2953ADE5008FBB14 /* AppDelegate.swift */,
+				077B8E402953ADE5008FBB14 /* SceneDelegate.swift */,
+				077B8E422953ADE5008FBB14 /* ViewController.swift */,
+				070C94572953C52900254D30 /* GoViewController.swift */,
+				07EE8FBC29549F1B00F7213B /* GoViewCell.swift */,
+				070C94592953C53A00254D30 /* WriteViewController.swift */,
+				070C945B2953C67400254D30 /* OutViewController.swift */,
+				077B8E442953ADE5008FBB14 /* Main.storyboard */,
+				077B8E472953ADE6008FBB14 /* Assets.xcassets */,
+				077B8E492953ADE6008FBB14 /* LaunchScreen.storyboard */,
+				07EE8FBF2954AB0200F7213B /* Post.swift */,
+				077B8E6E2953AFE4008FBB14 /* GoogleService-Info.plist */,
+				077B8E4C2953ADE6008FBB14 /* Info.plist */,
+			);
+			path = Sense;
+			sourceTree = "<group>";
+		};
+		077B8E542953ADE6008FBB14 /* SenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				077B8E552953ADE6008FBB14 /* SenseTests.swift */,
+			);
+			path = SenseTests;
+			sourceTree = "<group>";
+		};
+		077B8E5E2953ADE6008FBB14 /* SenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				077B8E5F2953ADE6008FBB14 /* SenseUITests.swift */,
+				077B8E612953ADE6008FBB14 /* SenseUITestsLaunchTests.swift */,
+			);
+			path = SenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		077B8E3A2953ADE5008FBB14 /* Sense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B8E652953ADE6008FBB14 /* Build configuration list for PBXNativeTarget "Sense" */;
+			buildPhases = (
+				077B8E372953ADE5008FBB14 /* Sources */,
+				077B8E382953ADE5008FBB14 /* Frameworks */,
+				077B8E392953ADE5008FBB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sense;
+			packageProductDependencies = (
+				077B8E712953B515008FBB14 /* FirebaseAuth */,
+				077B8E732953B515008FBB14 /* FirebaseFirestore */,
+				077B8E752953B515008FBB14 /* FirebaseStorage */,
+			);
+			productName = Sense;
+			productReference = 077B8E3B2953ADE5008FBB14 /* Sense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077B8E502953ADE6008FBB14 /* SenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B8E682953ADE6008FBB14 /* Build configuration list for PBXNativeTarget "SenseTests" */;
+			buildPhases = (
+				077B8E4D2953ADE6008FBB14 /* Sources */,
+				077B8E4E2953ADE6008FBB14 /* Frameworks */,
+				077B8E4F2953ADE6008FBB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077B8E532953ADE6008FBB14 /* PBXTargetDependency */,
+			);
+			name = SenseTests;
+			productName = SenseTests;
+			productReference = 077B8E512953ADE6008FBB14 /* SenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		077B8E5A2953ADE6008FBB14 /* SenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077B8E6B2953ADE6008FBB14 /* Build configuration list for PBXNativeTarget "SenseUITests" */;
+			buildPhases = (
+				077B8E572953ADE6008FBB14 /* Sources */,
+				077B8E582953ADE6008FBB14 /* Frameworks */,
+				077B8E592953ADE6008FBB14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077B8E5D2953ADE6008FBB14 /* PBXTargetDependency */,
+			);
+			name = SenseUITests;
+			productName = SenseUITests;
+			productReference = 077B8E5B2953ADE6008FBB14 /* SenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077B8E332953ADE5008FBB14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					077B8E3A2953ADE5008FBB14 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					077B8E502953ADE6008FBB14 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 077B8E3A2953ADE5008FBB14;
+					};
+					077B8E5A2953ADE6008FBB14 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 077B8E3A2953ADE5008FBB14;
+					};
+				};
+			};
+			buildConfigurationList = 077B8E362953ADE5008FBB14 /* Build configuration list for PBXProject "Sense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077B8E322953ADE5008FBB14;
+			packageReferences = (
+				077B8E702953B515008FBB14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 077B8E3C2953ADE5008FBB14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				077B8E3A2953ADE5008FBB14 /* Sense */,
+				077B8E502953ADE6008FBB14 /* SenseTests */,
+				077B8E5A2953ADE6008FBB14 /* SenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		077B8E392953ADE5008FBB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B8E4B2953ADE6008FBB14 /* LaunchScreen.storyboard in Resources */,
+				077B8E6F2953AFE4008FBB14 /* GoogleService-Info.plist in Resources */,
+				077B8E482953ADE6008FBB14 /* Assets.xcassets in Resources */,
+				077B8E462953ADE5008FBB14 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B8E4F2953ADE6008FBB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B8E592953ADE6008FBB14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077B8E372953ADE5008FBB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B8E432953ADE5008FBB14 /* ViewController.swift in Sources */,
+				07EE8FBE29549F2200F7213B /* GoViewCell.swift in Sources */,
+				077B8E3F2953ADE5008FBB14 /* AppDelegate.swift in Sources */,
+				07EE8FC12954AB0800F7213B /* Post.swift in Sources */,
+				070C94582953C52900254D30 /* GoViewController.swift in Sources */,
+				070C945C2953C67400254D30 /* OutViewController.swift in Sources */,
+				070C945A2953C53A00254D30 /* WriteViewController.swift in Sources */,
+				077B8E412953ADE5008FBB14 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B8E4D2953ADE6008FBB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B8E562953ADE6008FBB14 /* SenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077B8E572953ADE6008FBB14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B8E602953ADE6008FBB14 /* SenseUITests.swift in Sources */,
+				077B8E622953ADE6008FBB14 /* SenseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077B8E532953ADE6008FBB14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077B8E3A2953ADE5008FBB14 /* Sense */;
+			targetProxy = 077B8E522953ADE6008FBB14 /* PBXContainerItemProxy */;
+		};
+		077B8E5D2953ADE6008FBB14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 077B8E3A2953ADE5008FBB14 /* Sense */;
+			targetProxy = 077B8E5C2953ADE6008FBB14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		077B8E442953ADE5008FBB14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077B8E452953ADE5008FBB14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077B8E492953ADE6008FBB14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077B8E4A2953ADE6008FBB14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		077B8E632953ADE6008FBB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		077B8E642953ADE6008FBB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077B8E662953ADE6008FBB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SenseChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mete.Sense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		077B8E672953ADE6008FBB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sense/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SenseChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mete.Sense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		077B8E692953ADE6008FBB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mete.SenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sense";
+			};
+			name = Debug;
+		};
+		077B8E6A2953ADE6008FBB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mete.SenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sense";
+			};
+			name = Release;
+		};
+		077B8E6C2953ADE6008FBB14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mete.SenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sense;
+			};
+			name = Debug;
+		};
+		077B8E6D2953ADE6008FBB14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mete.SenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077B8E362953ADE5008FBB14 /* Build configuration list for PBXProject "Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B8E632953ADE6008FBB14 /* Debug */,
+				077B8E642953ADE6008FBB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B8E652953ADE6008FBB14 /* Build configuration list for PBXNativeTarget "Sense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B8E662953ADE6008FBB14 /* Debug */,
+				077B8E672953ADE6008FBB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B8E682953ADE6008FBB14 /* Build configuration list for PBXNativeTarget "SenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B8E692953ADE6008FBB14 /* Debug */,
+				077B8E6A2953ADE6008FBB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077B8E6B2953ADE6008FBB14 /* Build configuration list for PBXNativeTarget "SenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077B8E6C2953ADE6008FBB14 /* Debug */,
+				077B8E6D2953ADE6008FBB14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		077B8E702953B515008FBB14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		077B8E712953B515008FBB14 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 077B8E702953B515008FBB14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		077B8E732953B515008FBB14 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 077B8E702953B515008FBB14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		077B8E752953B515008FBB14 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 077B8E702953B515008FBB14 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 077B8E332953ADE5008FBB14 /* Project object */;
+}
