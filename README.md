@@ -33,4 +33,5 @@ Sense, Firebase kullanarak geliştirilmiş bir grup mesajlaşma chat uygulaması
 1. Bu depoyu fork edin.
 2. Yeni özellikler eklemek, hataları düzeltmek veya geliştirmeler yapmak için bir dal oluşturun (`git checkout -b feature/xyz`).
 3. Değişikliklerinizi yapın ve bunları doğrulamak için test edin.
-4. Değişikliklerinizi göndermek için bir pull isteği oluşturun.
+4. Değişikliklerinizi göndermek için bir pull isteği oluşturun
+
